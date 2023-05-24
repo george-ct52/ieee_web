@@ -1,0 +1,52 @@
+.about-us-section {
+  top: 100px;
+  background-color: #f7f7f7;
+  padding: 20px;
+  margin-bottom: 30px;
+  border-radius: 5px;
+}
+.about-us {
+  color: aliceblue;
+  max-width: 60%;
+  align-items: center;
+  align-content: center;
+  display: block;
+  position: relative;
+  top: 900px;
+  padding: 15px;
+  margin: auto;
+}
+.about-us__heading {
+  font-size: 3rem;
+  font-weight: 200;
+  margin-top: auto;
+  padding: 10px;
+  margin-bottom: 10px;
+  font-style: italic;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif,
+    sans-serif;
+}
+.about-us__description {
+  font-size: 20px;
+  font-family: auto;
+}
+
+@media screen and (max-width: 768px) {
+  .about-us__heading {
+    font-size: 1.5rem;
+    padding: 5px;
+  }
+  .about-us__description {
+    font-size: 20px;
+    font-family: auto;
+  }
+  /* Styles for screens up to 768px wide */
+}
+
+@media screen and (max-width: 480px) {
+  /* Styles for screens up to 480px wide */
+}
+.about-us-section {
+  text-decoration: solid;
+  /* Styles for the section containing the About Us component */
+}

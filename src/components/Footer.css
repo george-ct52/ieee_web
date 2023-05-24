@@ -1,0 +1,37 @@
+.footer {
+  background-color: #2a3239;
+  padding: 20px;
+  position: relative;
+  display: flex;
+  top: 1800px;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.social-media a {
+  color: #fff;
+  margin-right: 10px;
+}
+.address {
+  display: flex;
+  flex-direction: column;
+
+  margin: 10px;
+  position: relative;
+  align-items: center;
+  transform: translate(100%, 0px);
+}
+.address p {
+  margin: 10px;
+  font-size: 25ppx;
+  color: white;
+}
+.address h3 {
+  color: whitesmoke;
+  font: auto;
+  font-weight: ;
+}

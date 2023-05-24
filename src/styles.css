@@ -1,0 +1,145 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.particle {
+  position: fixed;
+  width: 100%;
+  z-index: -1;
+}
+.titlebig {
+  -webkit-text-fill-color: transparent;
+  background: linear-gradient(
+    90deg,
+    #8cd7ff,
+    #5f4cd8 76.83%,
+    rgba(84, 41, 206, 0) 156.84%
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  font-family: Inter;
+  font-size: 2.5em;
+  font-weight: 700;
+  z-index: -1;
+}
+.titlesmall {
+  -webkit-text-fill-color: transparent;
+  background: linear-gradient(
+    90deg,
+    #8cd7ff,
+    #5f4cd8 76.83%,
+    rgba(84, 41, 206, 0) 156.84%
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  font-family: Inter;
+  font-size: 1.5em;
+  font-weight: 700;
+  margin: 0px;
+  padding: 0px;
+  z-index: -1;
+}
+
+.text-overlay {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  text-align: center;
+  font-size: 5rem;
+  /* Adjust the font size as needed */
+  font-family: "Montserrat", sans-serif;
+  /* Replace with your preferred heading font */
+  font-weight: bold;
+  text-transform: uppercase;
+  z-index: 0;
+  width: 100%;
+  max-width: 80%;
+}
+
+.event-heading {
+  top: 980px;
+  align-items: center;
+  position: relative;
+  color: white;
+  font-size: 3rem;
+  font-weight: 200;
+  margin-top: auto;
+  padding: 10px;
+  margin-bottom: 10px;
+  font-style: italic;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif,
+    sans-serif;
+}
+.carousel-heading {
+  top: 1300px;
+  align-items: center;
+  position: relative;
+  color: white;
+  font-size: 3rem;
+  font-weight: 200;
+  margin-top: auto;
+  padding-top: 10px;
+
+  margin-bottom: 0px;
+  font-style: italic;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif,
+    sans-serif;
+}
+.card {
+  position: relative;
+  top: 1000px;
+
+  left: auto;
+  margin-top: 10px;
+  z-index: 2;
+  color: beige;
+}
+.carousel {
+  max-height: 1000px;
+  align-content: center;
+  position: relative;
+  top: 1500px;
+  margin: 30px;
+  margin-top: 0px;
+  padding: 30px;
+  padding-bottom: 0px;
+  padding-top: 0px;
+  align-items: center;
+}
+@media screen and (max-width: 768px) {
+  .about-us__heading {
+    font-size: 1.5rem;
+    padding: 5px;
+  }
+  .about-us__description {
+    font-size: 20px;
+    font-family: auto;
+  }
+  .titlebig {
+    font-size: 90%;
+  }
+  .titlesmall {
+    font-size: 90%;
+  }
+  /* Styles for screens up to 768px wide */
+}
+
+@media screen and (max-width: 480px) {
+  /* Styles for screens up to 480px wide */
+  .titlebig {
+    font-size: 100px;
+  }
+  .titlesmall {
+    font-size: 50px;
+  }
+}
